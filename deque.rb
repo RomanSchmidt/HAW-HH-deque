@@ -3,7 +3,7 @@ require './empty_error'
 # Author: Roman Schmidt, Daniel Osterholz
 #
 # This class uses an array to handle it like a Deque.
-# Remove functions will raise an EmptyError.
+# Remove functions can raise an EmptyError.
 class Deque
 
   private
